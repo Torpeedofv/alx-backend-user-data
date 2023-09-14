@@ -49,4 +49,4 @@ class DB:
         except InvalidRequestError as e:
             raise e
         except NoResultFound as e:
-            raise e   
+            raise e
